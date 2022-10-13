@@ -16,21 +16,25 @@ for(let i = 1; i <= limit; i++){
     box.className = 'ms-box';
 
     // SCRIVO DENTRO IL DIV
-    box.innerHTML = i;
-    container.append(box);
-    console.log(box);
-
     // CALCOLO PER DETERMINARE Fizz, Buzz e FizzBuzz
     if (i % 15 === 0){
+        box.innerHTML = "FizzBuzz";
+        container.append(box);
         console.log("FizzBuzz");   
     }
     else if (i % 3 === 0) {
+        box.innerHTML = "Fizz";
+        container.append(box);
         console.log("Fizz");
     }
     else if (i % 5 === 0) {
+        box.innerHTML = "Buzz";
+        container.append(box);
         console.log("Buzz");
     }
     else{
+        box.innerHTML = i;
+        container.append(box);
         console.log(i);
     } 
 }
