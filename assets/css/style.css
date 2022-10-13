@@ -21,7 +21,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
 }
 
 .container{
@@ -36,6 +36,20 @@ body{
     width: calc(100% / 10 - 20px);
     height: 50px;
     margin: 10px;
-    color: cadetblue;
+    color: black;
+    border-radius: 10px;
     background-color: azure;
+}
+
+.fizz{
+    background-color: lightcoral;
+}
+
+.buzz{
+    background-color: lightpink;
+}
+
+.fizz-buzz{
+    background-color: orange;
+
 }

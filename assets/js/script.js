@@ -20,16 +20,19 @@ for(let i = 1; i <= limit; i++){
     if (i % 15 === 0){
         box.innerHTML = "FizzBuzz";
         container.append(box);
+        box.classList.add('fizz-buzz');
         console.log("FizzBuzz");   
     }
     else if (i % 3 === 0) {
         box.innerHTML = "Fizz";
         container.append(box);
+        box.classList.add('fizz');
         console.log("Fizz");
     }
     else if (i % 5 === 0) {
         box.innerHTML = "Buzz";
         container.append(box);
+        box.classList.add('buzz');
         console.log("Buzz");
     }
     else{
