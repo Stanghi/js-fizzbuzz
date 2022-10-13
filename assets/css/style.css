@@ -1,15 +1,41 @@
 /* ----------------GENERAL---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 /* ----------------UTILITY---------------- */
 .debug{
     background-color: rgba(255, 0, 0, .25);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* ---------------COMPONENTS--------------- */
+.ms-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
 
-/* -----------------HEADER----------------- */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/* ------------------MAIN------------------ */
-
-/* -----------------FOOTER----------------- */
+.ms-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10 - 20px);
+    height: 50px;
+    margin: 10px;
+    color: cadetblue;
+    background-color: azure;
+}
